@@ -5,7 +5,6 @@ import streamlit as st
 from PIL import Image
 # 2. st. 을 이용해서 화면에 글자와 그림을 추가합니다.
 st.title("쁘니 요미 감자, 감쁘요 패밀리!")
-
 st.header("우리 가족을 소개드릴게요.")
 st.header(" ")
 st.write("우리 첫째 쁘니!.")
@@ -13,12 +12,10 @@ st.write("쁘니는 5살이에요~ 이뻐서 쁘니에요. 하지만 남자라�
 img = Image.open('images/pretty.jpg')
 st.image(img, width=300)
 st.header(" ")
-
 st.write("둘째 요미! 귀여워서 요미이고, 4살이에요.")
 img = Image.open('images/cute.jpg')
 st.image(img, width=300)
 st.header(" ")
-
 st.write("셋째 감자에요. 3살인데 덩치는 제일 커요.")
 img = Image.open('images/potato.jpg')
 st.image(img, width=300)
